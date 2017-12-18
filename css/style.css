@@ -1,0 +1,92 @@
+html,
+body {
+   height: 100%;
+}
+
+nav img {
+   height: 64px;
+   width: 64px;
+}
+
+img {
+   max-width: 100%;
+}
+
+h6 {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 0.8rem;
+   letter-spacing: 0.1rem;
+   color: #333;
+}
+h5{
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 0.8rem;
+   letter-spacing: 0.1rem;
+   color: #fff;
+}
+
+
+.blockquote {
+   font-size: 1.6rem;
+   color: #222;
+   border: none;
+   padding: 0;
+}
+
+.blockquote-footer {
+   margin: 1rem 0 0;
+}
+
+#cover {
+   background: url("../images/cover.jpg") center center no-repeat;
+   -webkit-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+
+}
+
+#stage-caption {
+   font-size: 1.4rem;
+   font-weight: 300;
+   max-width: 60rem;
+   margin: 0 auto;
+}
+
+#stage-caption {
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.feature-alter{
+   background: #f0f0f0;
+}
+footer li{
+   list-style: none;
+}
+
+@media screen and (max-width:768px) {
+   nav img {
+      height: 32px !important;
+      width: 32px !important;
+   }
+   #cover h1{
+      font-size: 3rem;
+      font-weight: 400;
+   }
+   .navbar-toggler{
+      padding: 0px;
+}
+   footer li{
+      display:inline;
+   }
+    footer li a{
+      padding: 10px;
+   }
+   footer h6{
+      text-align: center;
+   }
+
+}
